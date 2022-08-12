@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFA1E1CC28A648BA00224D00 /* SummerHolidaysPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA1E1CB28A648BA00224D00 /* SummerHolidaysPracticeApp.swift */; };
+		AFA1E1CE28A648BA00224D00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA1E1CD28A648BA00224D00 /* ContentView.swift */; };
+		AFA1E1D028A648BD00224D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA1E1CF28A648BD00224D00 /* Assets.xcassets */; };
+		AFA1E1D328A648BD00224D00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA1E1D228A648BD00224D00 /* Preview Assets.xcassets */; };
+		AFA1E1DD28A648BD00224D00 /* SummerHolidaysPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA1E1DC28A648BD00224D00 /* SummerHolidaysPracticeTests.swift */; };
+		AFA1E1E728A648BD00224D00 /* SummerHolidaysPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA1E1E628A648BD00224D00 /* SummerHolidaysPracticeUITests.swift */; };
+		AFA1E1E928A648BD00224D00 /* SummerHolidaysPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA1E1E828A648BD00224D00 /* SummerHolidaysPracticeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFA1E1D928A648BD00224D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFA1E1C028A648BA00224D00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFA1E1C728A648BA00224D00;
+			remoteInfo = SummerHolidaysPractice;
+		};
+		AFA1E1E328A648BD00224D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFA1E1C028A648BA00224D00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFA1E1C728A648BA00224D00;
+			remoteInfo = SummerHolidaysPractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFA1E1C828A648BA00224D00 /* SummerHolidaysPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummerHolidaysPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA1E1CB28A648BA00224D00 /* SummerHolidaysPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerHolidaysPracticeApp.swift; sourceTree = "<group>"; };
+		AFA1E1CD28A648BA00224D00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AFA1E1CF28A648BD00224D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFA1E1D228A648BD00224D00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFA1E1D828A648BD00224D00 /* SummerHolidaysPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerHolidaysPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA1E1DC28A648BD00224D00 /* SummerHolidaysPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerHolidaysPracticeTests.swift; sourceTree = "<group>"; };
+		AFA1E1E228A648BD00224D00 /* SummerHolidaysPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerHolidaysPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA1E1E628A648BD00224D00 /* SummerHolidaysPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerHolidaysPracticeUITests.swift; sourceTree = "<group>"; };
+		AFA1E1E828A648BD00224D00 /* SummerHolidaysPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerHolidaysPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFA1E1C528A648BA00224D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA1E1D528A648BD00224D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA1E1DF28A648BD00224D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFA1E1BF28A648BA00224D00 = {
+			isa = PBXGroup;
+			children = (
+				AFA1E1CA28A648BA00224D00 /* SummerHolidaysPractice */,
+				AFA1E1DB28A648BD00224D00 /* SummerHolidaysPracticeTests */,
+				AFA1E1E528A648BD00224D00 /* SummerHolidaysPracticeUITests */,
+				AFA1E1C928A648BA00224D00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFA1E1C928A648BA00224D00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFA1E1C828A648BA00224D00 /* SummerHolidaysPractice.app */,
+				AFA1E1D828A648BD00224D00 /* SummerHolidaysPracticeTests.xctest */,
+				AFA1E1E228A648BD00224D00 /* SummerHolidaysPracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFA1E1CA28A648BA00224D00 /* SummerHolidaysPractice */ = {
+			isa = PBXGroup;
+			children = (
+				AFA1E1CB28A648BA00224D00 /* SummerHolidaysPracticeApp.swift */,
+				AFA1E1CD28A648BA00224D00 /* ContentView.swift */,
+				AFA1E1CF28A648BD00224D00 /* Assets.xcassets */,
+				AFA1E1D128A648BD00224D00 /* Preview Content */,
+			);
+			path = SummerHolidaysPractice;
+			sourceTree = "<group>";
+		};
+		AFA1E1D128A648BD00224D00 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AFA1E1D228A648BD00224D00 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFA1E1DB28A648BD00224D00 /* SummerHolidaysPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFA1E1DC28A648BD00224D00 /* SummerHolidaysPracticeTests.swift */,
+			);
+			path = SummerHolidaysPracticeTests;
+			sourceTree = "<group>";
+		};
+		AFA1E1E528A648BD00224D00 /* SummerHolidaysPracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFA1E1E628A648BD00224D00 /* SummerHolidaysPracticeUITests.swift */,
+				AFA1E1E828A648BD00224D00 /* SummerHolidaysPracticeUITestsLaunchTests.swift */,
+			);
+			path = SummerHolidaysPracticeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFA1E1C728A648BA00224D00 /* SummerHolidaysPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA1E1EC28A648BD00224D00 /* Build configuration list for PBXNativeTarget "SummerHolidaysPractice" */;
+			buildPhases = (
+				AFA1E1C428A648BA00224D00 /* Sources */,
+				AFA1E1C528A648BA00224D00 /* Frameworks */,
+				AFA1E1C628A648BA00224D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SummerHolidaysPractice;
+			productName = SummerHolidaysPractice;
+			productReference = AFA1E1C828A648BA00224D00 /* SummerHolidaysPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFA1E1D728A648BD00224D00 /* SummerHolidaysPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA1E1EF28A648BD00224D00 /* Build configuration list for PBXNativeTarget "SummerHolidaysPracticeTests" */;
+			buildPhases = (
+				AFA1E1D428A648BD00224D00 /* Sources */,
+				AFA1E1D528A648BD00224D00 /* Frameworks */,
+				AFA1E1D628A648BD00224D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFA1E1DA28A648BD00224D00 /* PBXTargetDependency */,
+			);
+			name = SummerHolidaysPracticeTests;
+			productName = SummerHolidaysPracticeTests;
+			productReference = AFA1E1D828A648BD00224D00 /* SummerHolidaysPracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFA1E1E128A648BD00224D00 /* SummerHolidaysPracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA1E1F228A648BD00224D00 /* Build configuration list for PBXNativeTarget "SummerHolidaysPracticeUITests" */;
+			buildPhases = (
+				AFA1E1DE28A648BD00224D00 /* Sources */,
+				AFA1E1DF28A648BD00224D00 /* Frameworks */,
+				AFA1E1E028A648BD00224D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFA1E1E428A648BD00224D00 /* PBXTargetDependency */,
+			);
+			name = SummerHolidaysPracticeUITests;
+			productName = SummerHolidaysPracticeUITests;
+			productReference = AFA1E1E228A648BD00224D00 /* SummerHolidaysPracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFA1E1C028A648BA00224D00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AFA1E1C728A648BA00224D00 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AFA1E1D728A648BD00224D00 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AFA1E1C728A648BA00224D00;
+					};
+					AFA1E1E128A648BD00224D00 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AFA1E1C728A648BA00224D00;
+					};
+				};
+			};
+			buildConfigurationList = AFA1E1C328A648BA00224D00 /* Build configuration list for PBXProject "SummerHolidaysPractice" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFA1E1BF28A648BA00224D00;
+			productRefGroup = AFA1E1C928A648BA00224D00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFA1E1C728A648BA00224D00 /* SummerHolidaysPractice */,
+				AFA1E1D728A648BD00224D00 /* SummerHolidaysPracticeTests */,
+				AFA1E1E128A648BD00224D00 /* SummerHolidaysPracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFA1E1C628A648BA00224D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA1E1D328A648BD00224D00 /* Preview Assets.xcassets in Resources */,
+				AFA1E1D028A648BD00224D00 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA1E1D628A648BD00224D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA1E1E028A648BD00224D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFA1E1C428A648BA00224D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA1E1CE28A648BA00224D00 /* ContentView.swift in Sources */,
+				AFA1E1CC28A648BA00224D00 /* SummerHolidaysPracticeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA1E1D428A648BD00224D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA1E1DD28A648BD00224D00 /* SummerHolidaysPracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA1E1DE28A648BD00224D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA1E1E728A648BD00224D00 /* SummerHolidaysPracticeUITests.swift in Sources */,
+				AFA1E1E928A648BD00224D00 /* SummerHolidaysPracticeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFA1E1DA28A648BD00224D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFA1E1C728A648BA00224D00 /* SummerHolidaysPractice */;
+			targetProxy = AFA1E1D928A648BD00224D00 /* PBXContainerItemProxy */;
+		};
+		AFA1E1E428A648BD00224D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFA1E1C728A648BA00224D00 /* SummerHolidaysPractice */;
+			targetProxy = AFA1E1E328A648BD00224D00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AFA1E1EA28A648BD00224D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFA1E1EB28A648BD00224D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFA1E1ED28A648BD00224D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SummerHolidaysPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = 3G63Q3R53S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LarteyClyde.SummerHolidaysPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFA1E1EE28A648BD00224D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SummerHolidaysPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = 3G63Q3R53S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LarteyClyde.SummerHolidaysPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFA1E1F028A648BD00224D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3G63Q3R53S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LarteyClyde.SummerHolidaysPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummerHolidaysPractice.app/SummerHolidaysPractice";
+			};
+			name = Debug;
+		};
+		AFA1E1F128A648BD00224D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3G63Q3R53S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LarteyClyde.SummerHolidaysPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummerHolidaysPractice.app/SummerHolidaysPractice";
+			};
+			name = Release;
+		};
+		AFA1E1F328A648BD00224D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3G63Q3R53S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LarteyClyde.SummerHolidaysPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SummerHolidaysPractice;
+			};
+			name = Debug;
+		};
+		AFA1E1F428A648BD00224D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3G63Q3R53S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LarteyClyde.SummerHolidaysPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SummerHolidaysPractice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFA1E1C328A648BA00224D00 /* Build configuration list for PBXProject "SummerHolidaysPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA1E1EA28A648BD00224D00 /* Debug */,
+				AFA1E1EB28A648BD00224D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFA1E1EC28A648BD00224D00 /* Build configuration list for PBXNativeTarget "SummerHolidaysPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA1E1ED28A648BD00224D00 /* Debug */,
+				AFA1E1EE28A648BD00224D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFA1E1EF28A648BD00224D00 /* Build configuration list for PBXNativeTarget "SummerHolidaysPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA1E1F028A648BD00224D00 /* Debug */,
+				AFA1E1F128A648BD00224D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFA1E1F228A648BD00224D00 /* Build configuration list for PBXNativeTarget "SummerHolidaysPracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA1E1F328A648BD00224D00 /* Debug */,
+				AFA1E1F428A648BD00224D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFA1E1C028A648BA00224D00 /* Project object */;
+}
